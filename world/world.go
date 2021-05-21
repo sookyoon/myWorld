@@ -3,7 +3,12 @@ package world
 
 import "fmt"
 
-//  func PrintWorld() prints message that it's from pkg hello
+//  func PrintWorld() prints from pkg world - the Earth
 func PrintWorld() {
-	fmt.Println("from pkg world")
+	fmt.Println("from pkg world - the Earth")
+}
+
+//  func FromUpperThomson() prints from pkg world - Upper Thomson
+func FromUpperThomson() {
+	fmt.Println("from pkg world - Upper Thomson")
 }

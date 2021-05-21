@@ -3,7 +3,12 @@ package hello
 
 import "fmt"
 
-//  func PrintHello() prints message that it's from pkg hello
+//  func PrintHello() prints Hello that it's from pkg hello
 func PrintHello() {
-	fmt.Println("from pkg hello")
+	fmt.Println("Hello from pkg hello")
+}
+
+//  func Hi() prints Hi that it's from pkg hello
+func Hi() {
+	fmt.Println("Hi from pkg hello")
 }
