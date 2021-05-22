@@ -15,5 +15,12 @@ func FromUpperThomson() {
 
 //  func FromBishanToaPayoh() prints from pkg world - FromBishanToaPayoh
 //  added by contributor
+func FromBishanToaPayoh() {
 	fmt.Println("from pkg world - BishanToaPayoh")
+}
+
+//  func FromBishanToaPayoh1() prints from pkg world - FromBishanToaPayoh
+//  cloned  by contributor in visual studio code
+func FromBishanToaPayoh1() {
+	fmt.Println("from pkg world - BishanToaPayoh - from vs code")
 }
