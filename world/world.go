@@ -12,3 +12,8 @@ func PrintWorld() {
 func FromUpperThomson() {
 	fmt.Println("from pkg world - Upper Thomson")
 }
+
+//  func FromBishanToaPayoh() prints from pkg world - FromBishanToaPayoh
+//  added by contributor
+	fmt.Println("from pkg world - BishanToaPayoh")
+}
