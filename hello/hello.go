@@ -11,4 +11,5 @@ func PrintHello() {
 //  func Hi() prints Hi that it's from pkg hello
 func Hi() {
 	fmt.Println("Hi from pkg hello")
+	fmt.Println("Hello")
 }
