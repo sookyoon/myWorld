@@ -4,11 +4,11 @@ on: [create]
 
 jobs:
   create:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@master
-    - name: appleboy/telegram-action@master
-    with:
-      to: ${{ secrets.TELGRAM_TO }}
-      token: ${{ secrets.TELEGRAM_TOKEN }}
-      args: This message is triggered by ${{ github.event_name }}.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          args: This message is triggered by ${{ github.event_name }}.
